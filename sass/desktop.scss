@@ -5,29 +5,29 @@
     #class{
         margin-left: 308px;
         margin-right: 302px;
-    }
-    #class li{
-        flex-flow: row-wrap;
-        padding-right:20px;
-    }
-    #class p{
-        width: 250px;
-        margin-bottom: 126px;
-    }
-    #class img{
-        padding-left: 30px;
-    }
 
+       li{
+          flex-flow: row-wrap;
+          padding-right:20px;
+      }
+       p{
+          width: 250px;
+          margin-bottom: 126px;
+      }
+       img{
+          padding-left: 30px;
+      }
+}
     header{
         background:url("images/main-photo-hd.png") no-repeat top center;
-
         padding-bottom: 300px;
+        p{
+          padding-left: 850px;
+          font-size:1.8em;
+          padding-top: 150px;
+       }
     }
-    header p{
-       padding-left: 850px;
-       font-size:1.8em;
-       padding-top: 150px;
-    }
+
     h1{
      margin-left: 850px;
      padding-bottom:0;
@@ -39,12 +39,13 @@
     }
     #lead{
         display:flex;
-    }
-    #lead div p{
-        width:590px;
-    }
-    #lead .hide{
-        margin-left: 200px;
+
+        div p{
+          width:590px;
+      }
+        .hide{
+          margin-left: 200px;
+      }
     }
     #mission{
         width: 800px;
