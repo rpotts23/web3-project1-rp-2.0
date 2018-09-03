@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn:400,700');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    width:320px;
+    margin:auto;
+    font-family: 'Vollkorn';
+    font-size: .875em;
+}
+
+.bold{
+  font-size:1.2em;  
+}
+#class{
+    list-style:none;
+    margin-left:0;
+    padding-left:0;
+    box-sizing:border-box;
+}
+
+#class p{
+    padding-left:5px;
+    padding-right: 10px;
+}
+.title h2{
+    padding-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+#class li{
+    padding-bottom: 20px;
+}
+.footer{
+    text-align: center;
+}
+
+h1{
+  font-family: 'Kaushan Script'; 
+  color:#BBD8FA;
+  font-size: 1.4em;
+  margin-left:50px;
+  margin-top:0px;
+  padding-top: 50px;
+  text-transform: uppercase;
+}
+
+h2{
+    font-size: 1.5em;
+    padding-left: 90px;
+    padding-top: 20px;
+    font-weight:bold;
+}
+
+#mission{
+    padding-top: 0px;
+}
+header {
+   background: url("images/main-photo.png") no-repeat center top;
+   height: 170px;
+}
+
+header p{
+    color: #BBD8FA;
+    font-size: 1.2em;
+    padding-top: 47px;
+    padding-left: 40px;
+}
+
+li{
+    padding-bottom: 10px;
+}
+
+.hide{
+    display:none;
+}
+
+#script {
+    font-family: 'Kaushan Script';
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 2px solid #BBD8FA;
+    padding:10px 30px;
+    margin-left:100px;
+    
+}
+#lead{
+    margin:0;
+    padding:0;
+}
+.tagline{
+     font-size:1.563em;
+    align-content:center;
+    margin-left:10px;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+@media screen and (min-width: 768px){
+    body{
+        width: 768px;
+    }   
+   
+    #class{
+        display:flex;
+    }
+    #class ul{
+        flex-flow:row wrap; 
+    }
+    #class{
+        padding-right:20px;
+        width: 300px;
+    }
+    #class img{
+        padding-left: 20px;
+    }
+   #class .hide{
+        display: block;
+    }
+    header{
+        background:url("images/main-photo-tablet.png") no-repeat top center;
+        padding-bottom: 50px;
+    }
+    header p{
+       padding-left: 245px;
+       font-size:1.5em;
+        padding-top: 80px;
+    }
+    h1{
+     margin-left: 230px;  
+     padding-top: 45px;
+     font-size: 1.5em;
+    }
+    h2{
+        margin-left: 300px;
+        font-size:1.4em;
+    }
+    #lead{
+       display:flex; 
+       margin-left: 13px;
+    }
+   
+   #lead .hide{
+        display: inline;
+        margin-top: 20px;
+        width:350px;
+       margin-right: 20px;
+    }
+    #lead div{
+        width: 340px;
+        margin-right:0px;
+        padding-bottom:10px;
+    }
+    #mission{
+        margin-left: 58px;
+    }
+    .tagline{
+        margin-left: 200px;
+    }
+}
+@media screen and (min-width: 1200px){
+    body{
+        width: 1200px;
+    }
+    .noshow{
+        display: show;
+    }
+    #class ul{
+        flex-flow: row-wrap;
+        padding-left:100px;
+    }
+    
+    #class p{
+        width: 270;
+    }
+    #class img{
+        padding-left: 30px;
+    }
+   
+    header{
+        background:url("images/main-photo-desktop.png") no-repeat top center;
+        padding-bottom: 280px;
+    }
+    header p{
+      padding-left: 450px; 
+      font-size: 1.6em;
+      padding-top:165px;
+    }
+    h1{
+     margin-left: 400px;
+     padding-top:140px;
+     padding-bottom:15px;
+     font-size:2.25em;
+    }
+    h2{
+        margin-left: 450px;
+    }
+    #lead div p{
+        width:465px;
+    }
+    #lead {
+        margin-left:85px;
+    }
+    #mission{
+        width: 800px;
+        margin-left: 232px;
+    }
+    .tagline{
+        margin-left: 450px;
+    }   
+}
+@media screen and (min-width: 1920px){
+    body{
+        width: 1920px;
+    }
+    #class{
+        margin-left: 308px;
+        margin-right: 302px;
+    }
+    #class li{
+        flex-flow: row-wrap;
+        padding-right:20px;
+    }
+    #class p{
+        width: 250px;
+        margin-bottom: 126px;
+    }
+    #class img{
+        padding-left: 30px;
+    }
+   
+    header{
+        background:url("images/main-photo-hd.png") no-repeat top center;
+       
+        padding-bottom: 300px;
+    }
+    header p{
+       padding-left: 850px; 
+       font-size:1.8em;
+       padding-top: 150px;
+    }
+    h1{
+     margin-left: 850px;
+     padding-bottom:0;
+     padding-top: 160px;
+     font-size: 3em;
+    }
+    h2{
+        margin-left: 800px;
+    }
+    #lead{
+        display:flex;
+    }
+    #lead div p{
+        width:590px;
+    }
+    #lead .hide{
+        margin-left: 200px;
+    }
+    #mission{
+        width: 800px;
+        margin-left: 600px;
+    }
+   
+    .tagline{
+        margin-left: 850px;
+    }
+}
