@@ -1,0 +1,46 @@
+@media screen and (min-width: 1200px) {
+  body {
+    width: 1200px; }
+
+  .noshow {
+    display: show; }
+
+  #class ul {
+    flex-flow: row-wrap;
+    padding-left: 100px; }
+  #class p {
+    width: 270; }
+  #class img {
+    padding-left: 30px; }
+
+  header {
+    background: url("images/main-photo-desktop.png") no-repeat top center;
+    padding-bottom: 280px; }
+
+  header p {
+    padding-left: 450px;
+    font-size: 1.6em;
+    padding-top: 165px; }
+
+  h1 {
+    margin-left: 400px;
+    padding-top: 140px;
+    padding-bottom: 15px;
+    font-size: 2.25em; }
+
+  h2 {
+    margin-left: 450px; }
+
+  #lead {
+    margin-left: 85px; }
+    #lead div p {
+      width: 465px; }
+
+  #mission {
+    width: 800px;
+    margin-left: 232px; }
+
+  .tagline {
+    margin-left: 450px; } }
+
+/*# sourceMappingURL=laptop.css.map */
