@@ -1,8 +1,7 @@
-@import 'laptop';
-@import 'tablet';
-@import 'laptop';
-@import 'body_main';
-@import 'desktop';
+@import '_laptop';
+@import '_tablet';
+@import '_body_main';
+@import '_desktop';
 
 .bold{
   font-size:1.2em;
