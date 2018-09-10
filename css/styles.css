@@ -2,7 +2,8 @@
 @import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
 @media screen and (min-width: 1200px) {
   body {
-    width: 1200px; }
+    width: 1200px;
+    margin-left: 400px; }
 
   .noshow {
     display: show; }
@@ -16,12 +17,12 @@
     padding-left: 30px; }
 
   header {
-    padding-bottom: 280px; }
-
-  header p {
-    padding-left: 450px;
-    font-size: 1.6em;
-    padding-top: 165px; }
+    padding-bottom: 280px;
+    margin-top: 100px; }
+    header p {
+      padding-left: 450px;
+      font-size: 1.6em;
+      padding-top: 165px; }
 
   h1 {
     margin-left: 400px;
@@ -45,10 +46,12 @@
     margin-left: 450px; } }
 @media screen and (min-width: 768px) {
   body {
-    width: 768px; }
+    width: 768px;
+    margin-left: 150px;
+    align-content: center; }
 
   #class {
-    margin-right: 300px;
+    margin-left: 0;
     padding-right: 20px;
     width: 500px;
     display: flex; }
@@ -61,8 +64,9 @@
 
   header {
     padding-bottom: 50px;
-    padding-left: 200px;
-    width: 100px; }
+    margin-left: 150px;
+    height: 580px;
+    width: 772px; }
     header p {
       padding-left: 245px;
       font-size: 1.5em;
@@ -70,7 +74,8 @@
 
   h1 {
     margin-left: 230px;
-    padding-top: 45px; }
+    padding-top: 45px;
+    font-size: 1.5; }
 
   h2 {
     margin-left: 300px;
@@ -93,19 +98,20 @@
       margin-right: 20px; }
 
   #mission {
-    margin-left: 58px; }
+    margin-left: 58px;
+    width: 639px; }
 
   .tagline {
-    margin-left: 200px; } }
+    margin-left: 407px; } }
 a {
   text-decoration: none;
   color: black; }
 
 body {
   width: 320px;
-  margin: auto;
   font-family: 'Vollkorn';
-  font-size: .875em; }
+  font-size: .875em;
+  align-content: center; }
 
 .footer {
   text-align: center; }
@@ -113,7 +119,7 @@ body {
 h1 {
   font-family: 'Kaushan Script';
   color: #8ED8FF;
-  font-size: 4em;
+  font-size: 1.2em;
   margin-left: 50px;
   margin-top: 0px;
   padding-top: 50px;
@@ -126,7 +132,9 @@ h2 {
   font-weight: bold; }
 
 header {
-  height: 170px; }
+  height: 245px;
+  width: 326px;
+  margin-top: 20px; }
   header p {
     color: #8ED8FF;
     font-size: 1.2em;
@@ -153,7 +161,8 @@ li {
 
 @media screen and (min-width: 1920px) {
   body {
-    width: 1920px; }
+    width: 1920px;
+    margin-left: 300px; }
 
   #class {
     margin-left: 308px;

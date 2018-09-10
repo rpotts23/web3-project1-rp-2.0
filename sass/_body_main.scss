@@ -7,10 +7,9 @@ a{
 }
 body{
     width:320px;
-    margin:auto;
     font-family: 'Vollkorn';
     font-size: .875em;
-
+    align-content: center ;
 }
 
 .footer{
@@ -20,7 +19,7 @@ body{
 h1{
   font-family: 'Kaushan Script';
   color:#8ED8FF;
-  font-size: 4em;
+  font-size: 1.2em;
   margin-left:50px;
   margin-top:0px;
   padding-top: 50px;
@@ -35,7 +34,9 @@ h2{
 }
 
 header {
-   height: 170px;
+   	height: 245px;
+    width: 326px;
+   margin-top: 20px;
 
    p{
       color: #8ED8FF;
@@ -66,4 +67,5 @@ li{
     margin-left:10px;
     padding-top: 100px;
     margin-bottom: 100px;
+
 }

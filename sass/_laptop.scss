@@ -1,6 +1,7 @@
 @media screen and (min-width: 1200px){
     body{
         width: 1200px;
+        margin-left: 400px;
     }
     .noshow{
         display: show;
@@ -20,13 +21,13 @@
   }
 
     header{
-        
         padding-bottom: 280px;
-    }
-    header p{
+        margin-top: 100px;
+     p{
       padding-left: 450px;
       font-size: 1.6em;
       padding-top:165px;
+    }
     }
     h1{
      margin-left: 400px;

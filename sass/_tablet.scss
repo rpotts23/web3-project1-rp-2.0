@@ -1,10 +1,12 @@
 @media screen and (min-width: 768px){
     body{
         width: 768px;
+        margin-left: 150px;
+        align-content: center;
         }
 
     #class{
-        margin-right: 300px;
+        margin-left:0;
         padding-right:20px;
         width: 500px;
         display:flex;
@@ -21,8 +23,9 @@
 
     header{
         padding-bottom: 50px;
-        padding-left: 200px;
-        width: 100px;
+        margin-left: 150px;
+        	height: 580px;
+          width: 772px;
 
        p{
          padding-left: 245px;
@@ -33,6 +36,7 @@
     h1{
      margin-left: 230px;
      padding-top: 45px;
+     font-size: 1.5;
 
     }
     h2{
@@ -59,11 +63,13 @@
            width:350px;
           margin-right: 20px;
        }
+
     }
     #mission{
         margin-left: 58px;
+        width: 639px;
     }
     .tagline{
-        margin-left: 200px;
+        margin-left: 407px;
     }
 }
