@@ -4,10 +4,8 @@
   body {
     width: 1200px;
     margin-left: 400px; }
-
   .noshow {
     display: show; }
-
   #class ul {
     flex-flow: row-wrap;
     padding-left: 100px; }
@@ -15,7 +13,6 @@
     width: 270; }
   #class img {
     padding-left: 30px; }
-
   header {
     padding-bottom: 280px;
     margin-top: 100px; }
@@ -23,33 +20,28 @@
       padding-left: 450px;
       font-size: 1.6em;
       padding-top: 165px; }
-
   h1 {
     margin-left: 400px;
     padding-top: 140px;
     padding-bottom: 15px;
     font-size: 2.25em; }
-
   h2 {
     margin-left: 450px; }
-
   #lead {
     margin-left: 85px; }
     #lead div p {
       width: 465px; }
-
   #mission {
     width: 921.43px;
     margin-left: 232px; }
-
   .tagline {
     margin-left: 450px; } }
+
 @media screen and (min-width: 768px) {
   body {
     width: 768px;
     margin-left: 150px;
     align-content: center; }
-
   #class {
     margin-left: 0;
     padding-right: 20px;
@@ -61,7 +53,6 @@
       padding-left: 20px; }
     #class .hide {
       display: block; }
-
   header {
     padding-bottom: 50px;
     margin-left: 150px;
@@ -71,22 +62,19 @@
       padding-left: 245px;
       font-size: 1.5em;
       padding-top: 80px; }
-
   h1 {
     margin-left: 230px;
     padding-top: 45px;
     font-size: 1.5; }
-
   h2 {
     margin-left: 300px;
     font-size: 1.4em; }
-
   #lead {
     display: flex;
     margin-left: 10px; }
     #lead div {
       width: 440px;
-      margin-right: 0px;
+      margin-right: 0;
       padding-bottom: 10px; }
     #lead img {
       width: 368px;
@@ -96,13 +84,12 @@
       margin-top: 20px;
       width: 350px;
       margin-right: 20px; }
-
   #mission {
     margin-left: 58px;
     width: 639px; }
-
   .tagline {
     margin-left: 407px; } }
+
 a {
   text-decoration: none;
   color: black; }
@@ -110,7 +97,7 @@ a {
 body {
   width: 320px;
   font-family: 'Vollkorn';
-  font-size: .875em;
+  font-size: 0.875em;
   align-content: center; }
 
 .footer {
@@ -121,7 +108,7 @@ h1 {
   color: #8ED8FF;
   font-size: 1.2em;
   margin-left: 50px;
-  margin-top: 0px;
+  margin-top: 0;
   padding-top: 50px;
   text-transform: uppercase; }
 
@@ -163,7 +150,6 @@ li {
   body {
     width: 1920px;
     margin-left: 300px; }
-
   #class {
     margin-left: 308px;
     margin-right: 302px; }
@@ -175,36 +161,31 @@ li {
       margin-bottom: 126px; }
     #class img {
       padding-left: 30px; }
-
   header {
     padding-bottom: 300px; }
     header p {
       padding-left: 850px;
       font-size: 1.8em;
       padding-top: 150px; }
-
   h1 {
     margin-left: 850px;
     padding-bottom: 0;
     padding-top: 160px;
     font-size: 3em; }
-
   h2 {
     margin-left: 800px; }
-
   #lead {
     display: flex; }
     #lead div p {
       width: 590px; }
     #lead .hide {
       margin-left: 200px; }
-
   #mission {
     width: 800px;
     margin-left: 600px; }
-
   .tagline {
     margin-left: 850px; } }
+
 .bold {
   font-size: 1.2em; }
 
@@ -224,7 +205,7 @@ li {
   padding: 0; }
 
 #mission {
-  padding-top: 0px; }
+  padding-top: 0; }
 
 .hide {
   display: none; }

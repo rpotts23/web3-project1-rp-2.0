@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn:400,700');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  width: 320px;
+  font-family: 'Vollkorn';
+  font-size: 0.875em;
+  align-content: center;
+}
+
+.footer {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Kaushan Script';
+  color: #8ED8FF;
+  font-size: 1.2em;
+  margin-left: 50px;
+  margin-top: 0;
+  padding-top: 50px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.8em;
+  padding-left: 90px;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+header {
+  height: 245px;
+  width: 326px;
+  margin-top: 20px;
+  //trying to put a responsive background image, but hasn't worked. Should be main-photo.png
+  p {
+    color: #8ED8FF;
+    font-size: 1.2em;
+    padding-top: 5px;
+    padding-left: 40px;
+  }
+}
+
+li {
+  padding-bottom: 10px;
+}
+
+#script {
+  font-family: 'Kaushan Script';
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 2px solid #8ED8FF;
+  padding: 10px 30px;
+  margin-left: 100px;
+}
+
+.tagline {
+  font-size: 1.563em;
+  align-content: center;
+  margin-left: 10px;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
